@@ -1,0 +1,20 @@
+group: ejercicio1
+
+Cliente = {
+idCliente:number, nombre:string, apellido:string, DNI:number, telefono:number, direccion:string
+
+}
+Factura = {
+nroTicket:number, total:number, fecha:string, hora:number,idCliente:number
+
+}
+
+Detalle = {
+nroTicket:number, idProducto:number, cantidad:number, preciounitario:number
+
+}
+
+Producto = {
+idProducto:number, descripcion:string, precio:number, nombreP:string, stock:number
+
+}
